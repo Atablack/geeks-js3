@@ -1,7 +1,6 @@
 //1
 const emailInput = document.querySelector('#emailInput')
 const emailBtn = document.querySelector('#emailBtn')
-const emailResult = document.querySelector('#emailResult')
 
 const regExp = /@/
 
@@ -15,7 +14,6 @@ emailBtn.addEventListener('click', () => {
 
 const passwordInput = document.querySelector('#passwordInput')
 const passwordBtn = document.querySelector('#passwordBtn')
-const passwordResult = document.querySelector('#passwordResult')
 
 const regExp1 = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,}$/;
 
