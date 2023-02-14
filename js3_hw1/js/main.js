@@ -1,16 +1,7 @@
 //1
 const emailInput = document.querySelector('#emailInput')
-const emailBtn = document.querySelector('#emailBtn')
 
 const regExp = /@/
-
-emailBtn.addEventListener('click', () => {
-    if (regExp.test(emailInput.value)) {
-        alert('great job')
-    } else {
-        alert('do it right')
-    }
-})
 
 const passwordInput = document.querySelector('#passwordInput')
 const passwordBtn = document.querySelector('#passwordBtn')
@@ -18,10 +9,10 @@ const passwordBtn = document.querySelector('#passwordBtn')
 const regExp1 = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,}$/;
 
 passwordBtn.addEventListener('click', () => {
-    if (regExp1.test(passwordInput.value)) {
+    if (regExp1.test(passwordInput.value) && regExp.test(emailInput.value)) {
         alert('great job')
     } else {
-        alert('do it right')
+        alert('your email address or password is incorrect')
     }
 })
 
