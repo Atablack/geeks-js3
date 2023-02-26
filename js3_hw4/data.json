@@ -1,0 +1,52 @@
+[
+    {
+        "img": "/img/tomJ.jpg",
+        "price": "1000$",
+        "name": "jerry and Tom"
+    },
+    {
+        "img": "/img/bb.jpg",
+        "price": "2500$",
+        "name": "basketball"
+    },
+    {
+        "img": "/img/books.jpg",
+        "price": "3$",
+        "name": "books"
+    },
+    {
+        "img": "/img/camera.jpg",
+        "price": "600$",
+        "name": "camera"
+    },
+    {
+        "img": "/img/case.jpg",
+        "price": "2$",
+        "name": "case"
+    },
+    {
+        "img": "/img/crys.jpg",
+        "price": "2 тенге",
+        "name": "crystal"
+    },
+    {
+        "img": "/img/guitar.jpg",
+        "price": "130$",
+        "name": "guitar"
+    },
+    {
+        "img": "/img/kneePads.jpg",
+        "price": "30$",
+        "name": "knee pads"
+    },
+    {
+        "img": "/img/micro.jpg",
+        "price": "500$",
+        "name": "microphone"
+    },
+    {
+        "img": "/img/laptop.jpg",
+        "price": "700$",
+        "name": "laptop"
+    }
+]
